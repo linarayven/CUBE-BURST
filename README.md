@@ -112,18 +112,24 @@ The textured decoration copies `BallMenu`, `CapsuleMenu` and `PillMenu` for the 
 
 ### Main menu
 
-<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/979318bc-9419-462d-b01d-ee9dcccd1090" />
+<p align="center">
+  <img width="478" alt="Main menu" src="https://github.com/user-attachments/assets/979318bc-9419-462d-b01d-ee9dcccd1090" />
+</p>
 
-*Main menu (`MainMenuScene`): a gradient background, the CUBE BURST title and pixel-art style Start, Options and Exit buttons on the left, and a rotating textured ice cube on the right. The buttons scale up and brighten on hover.*
+<p align="center"><em>Main menu (<code>MainMenuScene</code>): a gradient background, the CUBE BURST title and pixel-art style Start, Options and Exit buttons on the left, and a rotating textured ice cube on the right. The buttons scale up and brighten on hover.</em></p>
 
 ### Game scene
 
-<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/30e958cd-0b88-48f7-b9d2-01dd5b1a8f64" />
+<p align="center">
+  <img width="478" alt="Game scene" src="https://github.com/user-attachments/assets/30e958cd-0b88-48f7-b9d2-01dd5b1a8f64" />
+</p>
 
-*Game scene (`GameScene`): a room built from rocky-textured wall blocks with a transparent front wall. The white-transparent flying cube spawns red spheres, black pills and green capsules. The Pause and Back buttons are in the bottom-left corner.*
+<p align="center"><em>Game scene (<code>GameScene</code>): a room built from rocky-textured wall blocks with a transparent front wall. The white-transparent flying cube spawns red spheres, black pills and green capsules. The Pause and Back buttons are in the bottom-left corner.</em></p>
 
 ### Options menu
 
-<img width="956" height="541" alt="image" src="https://github.com/user-attachments/assets/28044e26-3f54-4fc8-8069-fd53862ba7aa" />
+<p align="center">
+  <img width="478" alt="Options menu" src="https://github.com/user-attachments/assets/28044e26-3f54-4fc8-8069-fd53862ba7aa" />
+</p>
 
-*Options scene (`OptionsMenu`): an additional menu with an information message, the model credit and a Back button that returns to the main menu. Textured copies of the game shapes (a football-textured sphere, a green capsule and a black pill) spin around the screen as decoration.*
+<p align="center"><em>Options scene (<code>OptionsMenu</code>): an additional menu with an information message, the model credit and a Back button that returns to the main menu. Textured copies of the game shapes (a football-textured sphere, a green capsule and a black pill) spin around the screen as decoration.</em></p>
