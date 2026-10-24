@@ -44,9 +44,25 @@ Create a scene and build the game's main menu, with navigation to an additional 
 - **Custom UI and background:** all menu visuals are original: a dark blue gradient background, a custom colour palette (`#000D3B` and `#337C7E`), pixel-art style buttons and panel, the Orbitron font (TextMeshPro) and the CUBE BURST title.
 - **3D decoration in the menus:** the main menu has a rotating ice cube with a texture and normal map. The Options scene has copies of the game prefabs (sphere, capsule, pill) with textures, added purely for aesthetics. The sphere uses a football texture so its rotation is clearly visible.
 - **Pause button in `GameScene`:** one button toggles Pause/Resume using `Time.timeScale`. The button text changes, and the game continues from the same moment without restarting.
+- **Back button in `GameScene`:** a button next to Pause that returns to the main menu (uses `UIBackButton`).
 - **Frame rate limit** (`PerformanceSettings`) to reduce laptop load during testing.
 
 ---
+
+## Prefabs (`Assets/Prefabs`)
+
+| Prefab | Purpose |
+|---|---|
+| `Ice` | The flying cube in the game |
+| `Ball` | The red sphere that is spawned |
+| `Sphere Variant` | A copy of the ball prefab |
+| `Capsule` | The green capsule that is spawned |
+| `Pill` | The black pill that is spawned |
+| `Ground` | The floor of the room |
+| `Plane` | The old floor prefab (the original Plane from the assignment) |
+| `Wall` | A wall block of the room |
+| `BackButton` | The styled Back button used in the menus |
+| `BallMenu`, `CapsuleMenu`, `PillMenu` | Textured copies of the shapes used as decoration in the Options scene |
 
 ## Scripts (`Assets/Scripts`)
 
