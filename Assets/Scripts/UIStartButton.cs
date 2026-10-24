@@ -11,18 +11,19 @@ public class UIStartButton : MonoBehaviour
     void Start()
     {
         if (startButton != null)   startButton.onClick.AddListener(StartGame);
+        if (optionsButton != null) optionsButton.onClick.AddListener(OpenOptions);
         if (exitButton != null)    exitButton.onClick.AddListener(ExitGame);
     }
 
-    public void StartGame()
-    {
-        Debug.Log("Start pressed");
-        SceneManager.LoadScene("GameScene");
-    }
+    public void StartGame()   { SceneManager.LoadScene("GameScene"); }
+    public void OpenOptions() { SceneManager.LoadScene("OptionsMenu"); }
 
     public void ExitGame()
     {
-        Debug.Log("Exit pressed");
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 }
