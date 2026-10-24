@@ -1,5 +1,7 @@
 # CUBE BURST: Unity, Practical Works 4 and 5
 
+<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/3af62728-c49d-48ce-86cd-112e39812c73" />
+
 A university Unity project (Unity 6, URP) that combines two practical works:
 
 - **PW4**: 3D, GameObjects and creating materials (scene `GameScene`).
