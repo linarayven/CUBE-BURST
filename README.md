@@ -1,7 +1,5 @@
 # CUBE BURST: Unity, Practical Works 4 and 5
 
-<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/3af62728-c49d-48ce-86cd-112e39812c73" />
-
 A university Unity project (Unity 6, URP) that combines two practical works:
 
 - **PW4**: 3D, GameObjects and creating materials (scene `GameScene`).
@@ -109,3 +107,23 @@ The textured decoration copies `BallMenu`, `CapsuleMenu` and `PillMenu` for the 
 ## Credits
 
 - Ice cube model: "Ice Block" by BrysonJones on Sketchfab (https://sketchfab.com/3d-models/ice-block-d420727bf2e541b0a1bd45f749825621), Sketchfab Free Standard license. Materials and lighting adjusted in Unity. Credit text is also kept in `Assets/Materials/MenuMaterials/MainMenuMaterials/CubeMenu/Credits.md`.
+
+## Screenshots
+
+### Main menu
+
+<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/979318bc-9419-462d-b01d-ee9dcccd1090" />
+
+*Main menu (`MainMenuScene`): a gradient background, the CUBE BURST title and pixel-art style Start, Options and Exit buttons on the left, and a rotating textured ice cube on the right. The buttons scale up and brighten on hover.*
+
+### Game scene
+
+<img width="957" height="542" alt="image" src="https://github.com/user-attachments/assets/30e958cd-0b88-48f7-b9d2-01dd5b1a8f64" />
+
+*Game scene (`GameScene`): a room built from rocky-textured wall blocks with a transparent front wall. The white-transparent flying cube spawns red spheres, black pills and green capsules. The Pause and Back buttons are in the bottom-left corner.*
+
+### Options menu
+
+<img width="956" height="541" alt="image" src="https://github.com/user-attachments/assets/28044e26-3f54-4fc8-8069-fd53862ba7aa" />
+
+*Options scene (`OptionsMenu`): an additional menu with an information message, the model credit and a Back button that returns to the main menu. Textured copies of the game shapes (a football-textured sphere, a green capsule and a black pill) spin around the screen as decoration.*
